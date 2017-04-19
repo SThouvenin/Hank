@@ -47,12 +47,12 @@ body {
   margin-top: 10px;
 }
 #nav-list a{
-  color: #951c49;
+  color: #123D00;
   text-align:center;
 }
 
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #49C251;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -61,12 +61,23 @@ body {
   margin-top:5px;
 }
 
-#email a{
+#email a{ /* Email Hank */
 text-align: right;
 padding-bottom: 0;
 }
-#email div {
-  color: #557c3e;
+#email div {/* We love emails */
+  color: #E2C431;
   text-align: right;
   padding-right: 15px;
 }
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #007E26;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*END HEADER*/
