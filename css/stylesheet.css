@@ -43,7 +43,7 @@ body {
   vertical-align: middle;
 }
 
-#nave-list {
+#nav-list {
   margin-top: 10px;
 }
 #nav-list a{
@@ -78,5 +78,49 @@ padding-bottom: 0;
 
 .navbar-header button.navbar-toggle {
   clear: both;
+  margin-top: -30px;
 }
 /*END HEADER*/
+
+/******************** Large Devices Only *******************/
+@media (min-width: 1200px){
+
+}
+
+/******************** Medium Devices Only ******************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/world_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********************* Small Devices Only  *****************/
+@media (min-width: 768px) and (max-width: 991px){
+  /* Header */
+
+}
+
+/******************* Extra Small Devices Only ****************/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+.navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw;
+ }
+ .navbar-brand p { /*Kosher Cert */
+    font-size: .6em;
+    margin-top: 12px;
+ }
+  .navbar-brand p img { /*Star-K */
+    height:20px;
+  }
+}
