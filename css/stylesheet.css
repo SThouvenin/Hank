@@ -90,6 +90,41 @@ padding-bottom: 0;
 
 }
 
+#album-tile, #friends-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #00590B;
+  overflow: hidden;
+}
+
+#album-tile:hover, #friends-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#album-tile {
+  background: url('../images/album-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#friends-tile {
+  background: url('../images/friends-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#album-tile span, #friends-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width:100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
 /******************** Large Devices Only *******************/
 @media (min-width: 1200px){
   .jumbotron {
@@ -167,8 +202,32 @@ padding-bottom: 0;
     text-transform: uppercase;
   }
     /* End Header */
+
+    /* Home Page */
+
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
+  }
+
+  #album-tile, #friends-tile{
+    width:360px;
+    margin: 0 auto 15px;
+  }
+}
+
+/******* Super extra small devices Only! (eg - iPhone 4) ***/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  /* End Header */
+  /* Home Page */
+  #album-tile, #friends-tile {
+    width: 280px;
+    margin: 0 auto 15px;
   }
 }
