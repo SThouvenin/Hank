@@ -70,17 +70,44 @@ padding-bottom: 0;
   text-align: right;
   padding-right: 15px;
 }
-
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #000000;
 }
-
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 /*END HEADER*/
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px; /* separates from the tiles right above it */
+  padding-top: 35px;
+  padding-bottom:30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2; /* adjusts space between lines */
+}
+#hours > span, #address > span { /*hours and address became larger */
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
 
 /* Home Page */
 
@@ -125,6 +152,85 @@ padding-bottom: 0;
   color: #fff;
   opacity: .8;
 }
+/* END HOME PAGE */
+
+
+/*PHOTO CATEGORIES PAGE */
+.category-tile {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#photo-categories-title + div{
+margin-bottom: 50px;
+}
+/*END PHOTO CATEGORIES PAGE */
+
+/*FRIENDS CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr{
+  width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px; /* moves up pricing right under picture */
+  margin-right: -15px; 
+}
+.menu-item-tile span { /*Pint + Quart */
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px; /* max-width keeps it from becoming too big... */
+}
+.menu-item-photo div { /*D01 etc... */
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557C3E;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title{
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/*END FRIENDS CATEGORY PAGE */
+
 /******************** Large Devices Only *******************/
 @media (min-width: 1200px){
   .jumbotron {
@@ -202,6 +308,19 @@ padding-bottom: 0;
     text-transform: uppercase;
   }
     /* End Header */
+    /* Footer */
+
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) { /* 3rd section - testimonials) */
+    margin-bottom: 0; /*margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+    /* End Footer */
 
     /* Home Page */
 
@@ -213,6 +332,15 @@ padding-bottom: 0;
   #album-tile, #friends-tile{
     width:360px;
     margin: 0 auto 15px;
+  }
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description{
+    text-align: center;
   }
 }
 
@@ -229,5 +357,14 @@ padding-bottom: 0;
   #album-tile, #friends-tile {
     width: 280px;
     margin: 0 auto 15px;
+  }
+
+ .col-xxs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%
   }
 }
