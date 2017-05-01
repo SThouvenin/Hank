@@ -6,7 +6,7 @@ body {
 }
 /** HEADER **/
 #header-nav {
-  background-color: #00BA38;
+  background-color: #0C9836;
   border-radius: 0;
   border: 0;
 }
@@ -84,16 +84,16 @@ padding-bottom: 0;
   margin-top: 30px; /* separates from the tiles right above it */
   padding-top: 35px;
   padding-bottom:30px;
-  background-color: #222;
+  background-color: #2F1600;
   border-top: 0;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-#hours, #address {
+#adventures, #address {
   line-height: 2; /* adjusts space between lines */
 }
-#hours > span, #address > span { /*hours and address became larger */
+#adventures > span, #address > span { /*hours and address became larger */
   font-size: 1.3em;
 }
 #address p {
@@ -179,8 +179,9 @@ padding-bottom: 0;
 .category-tile:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#photo-categories-title + div{
+#photo-categories-tile + div{
 margin-bottom: 50px;
+margin-top: 50px;
 }
 /*END PHOTO CATEGORIES PAGE */
 
