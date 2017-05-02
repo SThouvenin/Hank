@@ -438,7 +438,10 @@ left: 60px; /*position where enlarged image should offset horizontally */
 
 /*Home Page End */
 /*Belize*/ 
-
+.thumbnail {
+  pointer-events: none;
+  cursor: default;
+}
 
 }
 
