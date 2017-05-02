@@ -203,11 +203,11 @@ margin-top: 50px;
   width: 80%;
 }
 
-.item-tile .item-price {
+.item-tile .item-location {
   font-size: 1.1em;
   text-align: right;
   margin-top: -15px; /* moves up pricing right under picture */
-  margin-right: -15px; 
+  margin-right: 0px; 
 }
 .item-tile span { /*Pint + Quart */
   font-size: .6em;
@@ -292,7 +292,16 @@ left: 60px; /*position where enlarged image should offset horizontally */
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 678px;
   }
-
+    /* Belize */
+  .thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left: 15%;
+  margin-right: 10%;
+  max-width: 250px;
+  min-width: 200px;
+}
 }
 
 /******************** Medium Devices Only ******************/
@@ -310,7 +319,21 @@ left: 60px; /*position where enlarged image should offset horizontally */
     height: 580px;
   }
   /*End Home Page */
-
+  /* Belize */
+  .thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left: ;
+  margin-right:;
+  max-width: 250px;
+  min-width: 150px;
+  overflow: hidden;
+  }
+.thumbnail {
+  pointer-events: none;
+  cursor: default;
+}
 }
 
 /********************* Small Devices Only  *****************/
@@ -405,18 +428,19 @@ left: 60px; /*position where enlarged image should offset horizontally */
   .item-photo {
     margin-right: auto;
   }
-  .item-tile .item-price {
+  .item-tile .item-location {
     text-align: center;
   }
   .item-description{
     text-align: center;
   }
-}
+
 
 /*Home Page End */
+/*Belize*/ 
 
 
-
+}
 
 /******* Super extra small devices Only! (eg - iPhone 4) ***/
 @media (max-width: 479px) {
