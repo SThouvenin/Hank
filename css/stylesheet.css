@@ -327,13 +327,9 @@ left: 60px; /*position where enlarged image should offset horizontally */
   margin-left: ;
   margin-right:;
   max-width: 250px;
-  min-width: 150px;
-  overflow: hidden;
+  min-width: 150px;;
   }
-.thumbnail {
-  pointer-events: none;
-  cursor: default;
-}
+
 }
 
 /********************* Small Devices Only  *****************/
