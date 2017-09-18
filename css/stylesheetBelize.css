@@ -65,6 +65,9 @@ body {
 #nav-list a span {
   font-size: 1.8em;
 }
+.larger{
+  font-size: 2.2em;
+}
 #email {
   margin-top:5px;
 }
@@ -258,7 +261,7 @@ h3.item-title{
   margin: 0 0 10px;
 }
 .item-details {
-  font-size: .9em;
+  font-size: .8em;
   font-style: italic;
 }
 /*Belize*/
@@ -283,6 +286,7 @@ border: 1px dashed gray;
 visibility: hidden;
 color: black;
 text-decoration: none;
+font-size: 16px;
 }
 
 .thumbnail span img{ /*CSS for enlarged image*/
