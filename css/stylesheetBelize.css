@@ -86,6 +86,14 @@ padding-bottom: 0;
   margin-top: -30px;
 }
 /*END HEADER*/
+.endingPadding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.ending {
+  font-size: 1.5em;
+  text-align: center;
+}
 
 /* FOOTER */
 .panel-footer {
@@ -330,11 +338,15 @@ left: -375px; /*position where enlarged image should offset horizontally */
 
 /******************** Large Devices Only *******************/
 @media (min-width: 1200px){
-  .jumbotron {
+  .jumbotop {
     background: url('../images/belize_1200.jpg') no-repeat;
     height: 678px;
   }
+  .jumbobottom {
+    background: url('../images/jumbobottom_1200.jpg') no-repeat;
+    height: 678px;
     /* Belize */
+  }
   .thumbnail{
   position: relative;
   border: 2px solid #557C3E;
@@ -356,9 +368,14 @@ left: -375px; /*position where enlarged image should offset horizontally */
     margin: 5px 5px 5px 0;
   }
   /* End Header */
-    .jumbotron {
+    .jumbotop {
     background: url('../images/belize_992.jpg') no-repeat;
     height: 580px;
+  }
+    .jumbobottom {
+    background: url('../images/jumbobottom_992.jpg') no-repeat;
+    height: 580px;
+    /* Belize */
   }
   /*End Home Page */
   /* Belize */
@@ -377,9 +394,14 @@ left: -375px; /*position where enlarged image should offset horizontally */
 /********************* Small Devices Only  *****************/
 @media (min-width: 768px) and (max-width: 991px){
   /* Header */
-    .jumbotron {
+    .jumbotop {
     background: url('../images/belize_768.jpg') no-repeat;
     height: 432px;
+  }
+    .jumbobottom {
+    background: url('../images/jumbobottom_768.jpg') no-repeat;
+    height: 432px;
+    /* Belize */
   }
   /* End Home Page */
   /* Belize */
