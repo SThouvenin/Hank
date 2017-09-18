@@ -1,5 +1,5 @@
 body {
-  font-size: 16px;
+  font-size: 21px;
   color: #fff;
   background-color: #007E26;
   font-family: 'Oxygen', sans-serif;
@@ -19,7 +19,7 @@ body {
 .navbar-brand{
   padding-top:25px;
 }
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
   font-family: 'Lora', serif;
   color: #E5EcE7;
   font-size: 1.5em;
@@ -41,13 +41,13 @@ body {
 .navbar-default .navbar-nav > .active > a:focus {
   background: #49C251;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { 
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span { /*star-k*/
+.navbar-brand p span { 
   vertical-align: middle;
 }
 
@@ -110,15 +110,19 @@ padding-bottom: 0;
   line-height: 2; /* adjusts space between lines */
 }
 #adventures > span, #address > span { /*hours and address became larger */
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+#address {
+  font-size: 19px;
 }
 #address p {
   color: #557c3e;
-  font-size: .8em;
+  font-size: .7em;
   line-height: 1.8;
 }
 #testimonials {
   font-style: italic;
+  font-size: 19px;
 }
 #testimonials p:nth-child(2) {
   margin-top: 25px;
@@ -212,7 +216,7 @@ margin-top: 50px;
 }
 
 .item-tile .item-location {
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: right;
   margin-top: -15px; /* moves up pricing right under picture */
   margin-right: 0px; 
