@@ -1,10 +1,17 @@
 body {
-  font-size: 21px;
+  font-size: 18px;
   color: #fff;
   background-color: #007E26;
   font-family: 'Oxygen', sans-serif;
  /* overflow-x: hidden;*/
 }
+.blurb{
+  font-size: 1em;
+  font-family: "Open Sans Condensed";
+}
+#menu-categories-title {
+   font-family: "Open Sans Condensed";
+  }
 #profession {
   font-family: 'Open Sans Condensed';
   font-size: 1.2em;
@@ -12,9 +19,12 @@ body {
 }
 .list-info {
   font-family: 'Open Sans Condensed';
-  font-size: .9em;
+  font-size: 1.1em;
   line-height: 29px;
 
+}
+.blurb{
+  font-size: 1.2em;
 }
 /** HEADER **/
 #header-nav {
@@ -546,6 +556,13 @@ left: -375px; /*position where enlarged image should offset horizontally */
   .item-description{
     text-align: center;
   }
+.blurb{
+  font-size: 1em;
+  font-family: "Open Sans Condensed";
+}
+.menu-categories-title {
+
+}
 
 
 /*Home Page End */
