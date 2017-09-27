@@ -592,6 +592,7 @@ left: -375px; /*position where enlarged image should offset horizontally */
 .blurb{
   font-size: 1.1em;
   font-family: "Open Sans Condensed";
+  text-align: center;
 }
 
 
