@@ -593,9 +593,6 @@ left: -375px; /*position where enlarged image should offset horizontally */
   font-size: 1.1em;
   font-family: "Open Sans Condensed";
 }
-.menu-categories-title {
-
-}
 
 
 /*Home Page End */
@@ -660,5 +657,6 @@ left: -375px; /*position where enlarged image should offset horizontally */
 .blurb{
   font-size: 1.1em;
   font-family: 'Open Sans Condensed';
+  text-align: center;
 }
 }
