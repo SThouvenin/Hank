@@ -387,6 +387,9 @@ left: -275px; /*position where enlarged image should offset horizontally */
   min-width: 200px;
 }*/
 }
+img{
+  height: 450px;
+}
 
 /******************** Medium Devices Only ******************/
 @media (min-width: 992px) and (max-width: 1199px) {
