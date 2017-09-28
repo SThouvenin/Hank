@@ -297,7 +297,7 @@ padding: 2px;
 .thumbnail:hover span{ /*CSS for enlarged image on hover*/
 visibility: visible;
 top: 0;
-left: 60px; /*position where enlarged image should offset horizontally */
+left: 218px; /*position where enlarged image should offset horizontally */
 
 }
 
@@ -352,7 +352,7 @@ padding: 2px;
 .thumbnail2:hover span{ /*CSS for enlarged image on hover*/
 visibility: visible;
 top: 0;
-left: -275px; /*position where enlarged image should offset horizontally */
+left: -380px; /*position where enlarged image should offset horizontally */
 
 }
 /*END ALBUM CATEGORY PAGE */
