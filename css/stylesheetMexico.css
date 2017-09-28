@@ -383,7 +383,7 @@ left: -275px; /*position where enlarged image should offset horizontally */
   min-width: 200px;
 }
 img {
-  height: 400px;
+  height: 375px;
 }
 }
 
@@ -427,7 +427,7 @@ img {
   min-width: 150px;;
   }
 img {
-  height: 400px;
+  height: 375px;
 }
 }
 
@@ -456,6 +456,9 @@ img {
 .thumbnail {
   pointer-events: none;
   cursor: default;
+}
+img {
+  height: 375px;
 }
 }
 
@@ -499,6 +502,9 @@ img {
     letter-spacing: .1em;
     text-transform: uppercase;
   }
+  img {
+  height: 375px;
+}
     /* End Header */
     /* Footer */
 
