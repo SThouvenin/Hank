@@ -5,6 +5,10 @@ body {
   font-family: 'Oxygen', sans-serif;
  /* overflow-x: hidden;*/
 }
+.love{
+  font-size: 12px;
+}
+}
 .blurb{
   font-size: 1.2em;
   font-family: "Open Sans Condensed";
@@ -34,7 +38,7 @@ body {
   border: 0;
 }
 #logo-img {
-  background: url('images/world.png') no-repeat;
+  background: url('../images/world.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -393,16 +397,22 @@ left: -375px; /*position where enlarged image should offset horizontally */
 .info-list div{
   padding-left: 500px;
 }
+.resize {
+padding-left: 30%;
+}
+.resize-img {
+  padding-right: 30%;
+}
 
 }
 /******************** Large Devices Only *******************/
 @media (min-width: 1200px){
   .jumbotop {
-    background: url('../images/jumbomextop_1200.jpg') no-repeat;
+    background: url('images/jumbomextop_1200.jpg') no-repeat;
     height: 678px;
   }
   .jumbobottom {
-    background: url('../images/jumbobottom_1200.jpg') no-repeat;
+    background: url('images/jumbobottom_1200.jpg') no-repeat;
     height: 678px;
     /* Belize */
   }
@@ -432,6 +442,9 @@ left: -375px; /*position where enlarged image should offset horizontally */
 .info-list{
   padding-left: 6%;
 }
+.resize {
+padding-left: 38%;
+}
 /*.needsPadding{
   padding-left: 6.5%;
 }*/
@@ -446,6 +459,9 @@ left: -375px; /*position where enlarged image should offset horizontally */
     height: 100px;
     margin: 5px 5px 5px 0;
   }
+  .resize {
+padding-left: 25%;
+}
   /* End Header */
     .jumbotop {
     background: url('../images/jumbomextop_992.jpg') no-repeat;
@@ -594,6 +610,7 @@ left: -375px; /*position where enlarged image should offset horizontally */
   font-family: "Open Sans Condensed";
   text-align: center;
 }
+
 
 
 /*Home Page End */
