@@ -294,7 +294,6 @@ border-width: 0;
 padding: 2px;
 width: 100%;
 height: auto;
-
 }
 
 .thumbnail:hover span{ /*CSS for enlarged image on hover*/
@@ -351,7 +350,6 @@ visibility: visible;
 top: 0;
 left: 0;
 z-index: 200; /*position where enlarged image should offset horizontally */
-
 }
 .thumbnail2{
 position: relative;
@@ -530,7 +528,6 @@ z-index: 50;
   pointer-events: none;
   cursor: default;
 }
-
 }
 
 /******* Super extra small devices Only! (eg - iPhone 4) ***/
