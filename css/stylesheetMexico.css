@@ -268,8 +268,9 @@ h3.item-title{
 /*Belize*/
 
 .thumbnail{
-position: relative;
+position: fixed;
 z-index: 0;
+text-align: center;
 }
 
 .thumbnail:hover{
