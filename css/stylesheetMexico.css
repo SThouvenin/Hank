@@ -1,5 +1,5 @@
 body {
-  font-size: 21px;
+  font-size: 16px;
   color: #fff;
   background-color: #007E26;
   font-family: 'Oxygen', sans-serif;
@@ -81,6 +81,7 @@ padding-bottom: 0;
   color: #E2C431;
   text-align: right;
   padding-right: 15px;
+  font-size: 12px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #000000;
@@ -270,7 +271,7 @@ h3.item-title{
   margin: 0 0 10px;
 }
 .item-details {
-  font-size: .8em;
+  font-size: 1.05em;
   font-style: italic;
 }
 /*Belize*/
@@ -387,16 +388,6 @@ z-index: 50;
   max-width: 250px;
   min-width: 200px;
 }
-/*  .thumbnail2{
-  position: relative;
-  border: 2px solid #557C3E;
-  padding: 0px;
-  margin-left: 15%;
-  margin-right: 10%;
-  max-width: 250px;
-  min-width: 200px;
-}*/
-}
 }
 
 /******************** Medium Devices Only ******************/
@@ -424,11 +415,17 @@ z-index: 50;
   position: relative;
   border: 2px solid #557C3E;
   padding: 0px;
-  margin-left: ;
-  margin-right:;
+  margin-left: 15%;
+  margin-right: 10%;
   max-width: 250px;
   min-width: 150px;;
   }
+  .item-details {
+  font-size: 1.05em;
+  font-style: italic;
+  padding-left: 5%;
+}
+
 /*    .thumbnail2{
   position: relative;
   border: 2px solid #557C3E;

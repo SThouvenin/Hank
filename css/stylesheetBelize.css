@@ -1,5 +1,5 @@
 body {
-  font-size: 21px;
+  font-size: 16px;
   color: #fff;
   background-color: #007E26;
   font-family: 'Oxygen', sans-serif;
@@ -59,7 +59,6 @@ body {
   text-align:center;
 }
 
-
 #nav-list a:hover {
   background: #49C251;
 }
@@ -81,6 +80,7 @@ padding-bottom: 0;
   color: #E2C431;
   text-align: right;
   padding-right: 15px;
+  font-size: 12px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #000000;
@@ -268,7 +268,7 @@ h3.item-title{
   margin: 0 0 10px;
 }
 .item-details {
-  font-size: .8em;
+  font-size: 1.05em;
   font-style: italic;
 }
 /*Belize*/
