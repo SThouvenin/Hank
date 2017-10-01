@@ -1,0 +1,571 @@
+body {
+  font-size: 16.5px;
+  color: #fff;
+  background-color: #007E26;
+  font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #0C9836;
+  border-radius: 0;
+  border: 0;
+}
+#logo-img {
+  background: url('../images/world.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+  padding-top:25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #E5EcE7;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active{
+  background: #d65c14;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #49C251;
+}
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #123D00;
+  text-align:center;
+}
+
+#nav-list a:hover {
+  background: #49C251;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.larger{
+  font-size: 2.2em;
+}
+#email {
+  margin-top:5px;
+}
+
+#email a{ /* Email Hank */
+text-align: right;
+padding-bottom: 0;
+}
+#email div {/* We love emails */
+  color: #E2C431;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 12px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*END HEADER*/
+.endingPadding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.ending {
+  font-size: 1.5em;
+  text-align: center;
+}
+img {
+  height: 400px;
+}
+.no-change {
+  max-width: 40px;
+  max-height: 40px;
+}
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px; /* separates from the tiles right above it */
+  padding-top: 35px;
+  padding-bottom:30px;
+  background-color: #2F1600;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#adventures, #address {
+  line-height: 2; /* adjusts space between lines */
+}
+#adventures > span, #address > span { /*hours and address became larger */
+  font-size: 1.1em;
+}
+#address {
+  font-size: 19px;
+}
+#address p {
+  color: #557c3e;
+  font-size: .7em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+  font-size: 19px;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+/* Home Page */
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #00590B;
+
+}
+
+#album-tile, #friends-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #00590B;
+  overflow: hidden;
+}
+
+#album-tile:hover, #friends-tile:hover, #map-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#album-tile {
+  background: url('../images/album-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#friends-tile {
+  background: url('../images/friends-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#album-tile span, #friends-tile span, #map-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width:100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+/* END HOME PAGE */
+
+
+/*PHOTO CATEGORIES PAGE */
+.category-tile {
+  position: relative;
+  border: 2px solid #69B14A;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 15px;
+}
+.category-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#photo-categories-tile + div{
+margin-bottom: 50px;
+margin-top: 50px;
+}
+/*END PHOTO CATEGORIES PAGE */
+
+/*Album CATEGORY PAGE */
+.item-tile {
+  margin-bottom: 25px;
+}
+.item-tile hr{
+  width: 80%;
+}
+
+.item-tile .item-location {
+  font-size: 1em;
+  text-align: right;
+  margin-top: -15px; /* moves up pricing right under picture */
+  margin-right: 0px; 
+}
+.item-tile span { /*Pint + Quart */
+  font-size: .6em;
+}
+.item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px; /* max-width keeps it from becoming too big... */
+}
+
+.thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left: 25%;
+  max-width: 250px;
+  min-width: 200px;
+}
+.item-photo div { /*D01 etc... */
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557C3E;
+  text-align: center;
+}
+.item-description {
+  padding-right: 30px;
+}
+h3.item-title{
+  margin: 0 0 10px;
+}
+.item-details {
+  font-size: 1.05em;
+  font-style: italic;
+}
+/*Belize*/
+.thumbnail:hover img {
+  border:1px solid transparent;
+}
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+margin-left: 18.5%;
+margin-top: 5%;
+/*left: -1000px;*/
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+font-size: 16px;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+width: 100%;
+height: auto;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+position: fixed;
+visibility: visible;
+top: 0;
+left: 0;
+/*z-index: 200; *//*position where enlarged image should offset horizontally */
+
+}
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+
+
+
+
+
+/*Figuring out thumbnail! */
+
+.thumbnail2:hover img {
+  border:1px solid transparent;
+}
+.thumbnail2 span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+/*left: -1000px;*/
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+font-size: 16px;
+}
+
+.thumbnail2 span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+width: 100%;
+height: auto;
+padding: 2px;
+}
+
+.thumbnail2:hover span{ /*CSS for enlarged image on hover*/
+position: fixed; 
+visibility: visible;
+top: 0;
+left: 0;
+z-index: 200; /*position where enlarged image should offset horizontally */
+}
+.thumbnail2{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail2:hover{
+background-color: transparent;
+z-index: 50;
+}
+/*END ALBUM CATEGORY PAGE */
+
+/******************** Large Devices Only *******************/
+@media (min-width: 1200px){
+  .jumbotop {
+    background: url('../images/extra_1200.jpg') no-repeat;
+    height: 678px;
+  }
+  .jumbobottom {
+    background: url('../images/jumbobottom_1200.jpg') no-repeat;
+    height: 678px;
+    /* Belize */
+  }
+  .thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left: 15%;
+  margin-right: 10%;
+  max-width: 250px;
+  min-width: 200px;
+}
+}
+
+/******************** Medium Devices Only ******************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/world_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+    .jumbotop {
+    background: url('../images/extra_998.jpg') no-repeat;
+    height: 580px;
+  }
+    .jumbobottom {
+    background: url('../images/jumbobottom_992.jpg') no-repeat;
+    height: 580px;
+    /* Belize */
+  }
+  /*End Home Page */
+  /* Belize */
+  .thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left:;
+  margin-right:10px;
+  max-width: 250px;
+  min-width: 150px;
+  }
+
+}
+
+/********************* Small Devices Only  *****************/
+@media (min-width: 768px) and (max-width: 991px){
+  /* Header */
+    .jumbotop {
+    background: url('../images/extra_768.jpg') no-repeat;
+    height: 432px;
+  }
+    .jumbobottom {
+    background: url('../images/jumbobottom_768.jpg') no-repeat;
+    height: 432px;
+    /* Belize */
+  }
+  /* End Home Page */
+  /* Belize */
+  .thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left: 25%;
+  max-width: 250px;
+  overflow: hidden;
+}
+.thumbnail {
+  pointer-events: none;
+  cursor: default;
+}
+}
+
+/******************* Extra Small Devices Only ****************/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+.navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw;
+ }
+ .navbar-brand p { /*Kosher Cert */
+    font-size: .6em;
+    margin-top: 12px;
+ }
+  .navbar-brand p img { /*Star-K */
+    height:35px;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span{
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #00BA38;
+    color: #081701;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+    /* End Header */
+    /* Footer */
+
+.panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) { /* 3rd section - testimonials) */
+    margin-bottom: 0; /*margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+    /* End Footer */
+
+    /* Home Page */
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  #album-tile, #friends-tile{
+    width:360px;
+    margin: 0 auto 15px;
+  }
+  .item-photo {
+    margin-right: auto;
+  }
+  .item-tile .item-location {
+    text-align: center;
+  }
+  .item-description{
+    text-align: center;
+  }
+
+
+/*Home Page End */
+/*Belize*/ 
+.thumbnail {
+  pointer-events: none;
+  cursor: default;
+}
+}
+
+/******* Super extra small devices Only! (eg - iPhone 4) ***/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+  /* End Header */
+  /* Home Page */
+  #album-tile, #friends-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+ .col-xxs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%
+  }
+    /* Belize */
+  .thumbnail{
+  position: relative;
+  border: 2px solid #557C3E;
+  padding: 0px;
+  margin-left: 15%;
+  margin-right: 10%;
+  max-width: 250px;
+  min-width: 200px;
+  overflow: hidden;
+}
+.thumbnail {
+  pointer-events: none;
+  cursor: default;
+}
+}
