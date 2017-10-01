@@ -127,6 +127,12 @@ padding-bottom: 0;
   font-size: 1.5em;
   text-align: center;
 }
+h3{
+  font-family: "Open Sans Condensed";
+  padding: 10px;
+  text-transform: uppercase;
+
+}
 
 /* FOOTER */
 .panel-footer {
@@ -236,6 +242,29 @@ padding-bottom: 0;
   opacity: .8;
 }
 .category-tile:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+.big-tile {
+  position: relative;
+  border: 2px solid #69B14A;
+  overflow: hidden;
+  width: 725px;
+  height: 300px;
+  margin: 0 auto 15px;
+}
+.big-tile span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.big-tile:hover{
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #photo-categories-tile + div{
@@ -400,10 +429,23 @@ left: -375px; /*position where enlarged image should offset horizontally */
 .resize {
 padding-left: 30%;
 }
-.resize-img {
-  padding-right: 30%;
+.paragraph-resize{
+  padding-left: 0%;
 }
-
+.resize-img {
+  /*padding-right: 30%;*/
+}
+.pic-left {
+  margin-left: 7%;
+}
+.shift-left{
+  padding-right: 100px;
+}
+.big-tile {
+  margin-left:40%;
+  margin-top: 5%;
+  /*width: 900px;*/
+}
 }
 /******************** Large Devices Only *******************/
 @media (min-width: 1200px){
@@ -445,6 +487,24 @@ padding-left: 30%;
 .resize {
 padding-left: 38%;
 }
+.pic-left {
+  margin-left: 7%;
+}
+.paragraph-resize{
+  padding-left: 18.5%;
+  padding-right: 8%;
+}
+.shift-left{
+  padding-right: 75px;
+}
+.adjust {
+  padding-left: 5%;
+}
+.big-tile {
+  margin-left: 18%;
+  margin-top: 3%;
+  width: 725px;
+}
 /*.needsPadding{
   padding-left: 6.5%;
 }*/
@@ -461,6 +521,10 @@ padding-left: 38%;
   }
   .resize {
 padding-left: 25%;
+}
+.paragraph-resize{
+  padding-left: 12%;
+  padding-right: 4.0%;
 }
   /* End Header */
     .jumbotop {
@@ -487,10 +551,19 @@ padding-left: 25%;
 .list-info {
 
 }
+.pic-left {
+  margin-left: 3.75%;
+}
 .blurb{
   font-size: 1.1em;
   font-family: 'Open Sans Condensed';
 }
+.big-tile {
+  margin-left: 12%;
+  margin-top: 3%;
+
+}
+
 }
 
 /********************* Small Devices Only  *****************/
@@ -527,6 +600,16 @@ padding-left: 25%;
 .blurb{
   font-size: 1.1em;
   font-family: 'Open Sans Condensed';
+}
+.big-tile {
+  margin-top: 3%;
+}
+.big-pic{
+  padding-right: 20%;
+}
+h3{
+  padding-top: 10%;
+
 }
 }
 
